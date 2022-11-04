@@ -1,0 +1,24 @@
+@media only screen and (min-width: 750px){
+    .concept{
+        margin-bottom: 0px;
+    }
+    .concept li {
+        position: relative;
+        width: 33%;
+        height: 280px;
+    }
+    #uni{
+        margin-top: 30%;
+    }
+    #young{
+        margin-top: 15%;
+    }
+
+}
+@media only screen and (min-width: 1025px){
+
+}@media (min-width:1250px){
+    .concept{
+        margin-bottom: 150px;
+    }
+}

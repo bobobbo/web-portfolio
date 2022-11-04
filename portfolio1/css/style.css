@@ -1,0 +1,459 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #1c1c1c;
+}
+a:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.content-wrap{
+    width: 430px;
+    margin: 0 auto;
+    position: relative;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* 헤더 */
+header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+.left-menu{
+    display: none;
+}
+.left-menu ul{
+    float: left;
+    height: 70px;
+}
+.left-menu ul li{
+    float: left;
+    line-height: 70px;
+    margin-right: 50px;
+}
+.left-menu ul li a{
+    color: white;
+}
+.left-menu ul li:last-child{
+    margin-right: 0px;
+}
+/* .right-menu{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    height: 70px;
+} */
+.right-menu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    right: 150px;
+    top: 0;
+}
+.right-menu ul{
+    float: right;
+    height: 70px;
+}
+.right-menu ul li{
+    float: left;
+    margin-right: 50px;
+    line-height: 70px;
+}
+.right-menu ul li:last-child{
+    margin-right: 0px;
+}
+.right-menu ul li a{
+    color: white
+}
+.menu{
+    width: 25px;
+    height: 70px;
+    float: left;
+    line-height: 70px;
+}
+.menu .fa-bars{
+    font-size: 15px;
+    color: white;
+}
+.logo{
+    width: 180px;
+    margin: 0 auto;
+    height: 70px;
+    line-height: 70px;
+}
+.logo img{
+    width: 100%;
+    height: 20px;
+}
+.sub-icon{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 50px;
+    height: 70px;
+    line-height: 70px;
+    float: right;
+}
+.sub-icon .fa-magnifying-glass{
+    font-size: 15px;
+    color: white;
+    margin-right: 10px;
+}
+.sub-icon .fa-cart-shopping{
+    font-size: 15px;
+    color: white;
+}
+/* 섹션1 */
+.section1{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/M-main-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.down{
+    display: none;
+}
+.go-buy{
+    display: none;
+}
+.sub-title{
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+}
+.title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 42px;
+    color: white;
+}
+.thin{
+    font-weight: 200;
+}
+.lime{
+    color: #ccff00;
+}
+.sec1-prev-next{
+    transform: translateY(250px);
+    /* color: white; */
+}
+.sec1-prev-next p{
+    float: left;
+}
+.sec1-prev-next ul{
+    float: right;
+}
+.sec1-prev-next ul li{
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.sec1-prev-next ul li:last-child{
+    margin-right: 0px;
+}
+/* 섹션2 */
+.section2 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sec2-thin{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.clothes-box{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(../images/sec1-clothes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name-tag{
+    position: absolute;
+    right: 30px;
+    top: 230px;
+    width: 200px;
+    height: 110px;
+    /* background-color: lightgray; */
+}
+.color-circle{
+    width: 25px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: black;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+.select-circle{
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.clothes-name-tag{
+    text-align: center;
+    background-color: white;
+    padding: 15px 0px;
+}
+.clothes-name-tag p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.price{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+}
+.sec2-prev-next{
+    width: 360px;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.sec2-prev-next p{
+    float: left;
+}
+.sec2-prev-next ul{
+    float: right;
+}
+.sec2-prev-next ul li{
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.sec2-prev-next ul li:last-child{
+    margin-right: 0px;
+}
+.fabric{
+    width: 400px;
+    margin: 0 auto;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.fabric span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.clothes-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.color-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.colors{
+    width: 400px;
+    margin: 0 auto;
+}
+.colors li{
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-right: 10px;
+}
+.colors li:first-child{
+    background-color: #d7d5d1;
+}
+.colors li:nth-child(2){
+    background-color: #98b2e2;
+}
+.colors li:nth-child(3){
+    background-color: black;
+    margin-right: 0px;
+}
+.buy-btn{
+    width: 400px;
+    margin: 0 auto;
+}
+.buy-btn button{
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+    width: 100%;
+    border: 2px solid #ebedec;
+    background: linear-gradient(to right, #66ccff, #ff99ff, #ffccff);
+    color: white;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.buy-btn button:hover{
+    opacity: 0.9;
+}
+/* 섹션3*/
+.section3 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.product-list{
+    width: 388px;
+    margin: 0 auto;
+}
+.product-list li{
+   margin-bottom: 50px;
+}
+.product-list li p{
+    margin-top: 50px;
+    text-align: center;
+}
+.bold{
+    font-weight: 500;
+}
+
+/* 섹션4 */
+.section4{
+    margin-top: 100px;
+}
+.content-last-wrap{
+    width: 430px;
+    margin: 0 auto;
+}
+.etc li{
+    width: 430px;
+    height: 303px;
+}
+.etc li img{
+    width: 100%;
+    height: 100%;
+}
+.sns{
+    position: relative;
+}
+.sns p{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+    font-size: 36px;
+    font-weight: 100;
+}
+.post{
+    position: relative;
+}
+.post p{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+    font-family:'Noto Sans KR', sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    color: #1c1c1c;
+}
+.post span{
+    font-family:'Noto Sans KR', sans-serif;
+    color: #734015;
+    font-weight: 400;
+}
+.review{
+    position: relative;
+}
+.etc li:nth-child(3) img{
+    width: 100%;
+    height: 303px;
+}
+.review p{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+    font-size: 36px;
+    font-weight: 100;
+}
+.q-n{
+    position: relative;
+}
+.q-n p{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+/* 푸터 */
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding: 50px 0px;
+}
+.footer-wrap{
+    width: 430px;
+    margin: 0 auto;
+}
+.f-title{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.number{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.fnb li{
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.sns-icon{
+    height: 60px;
+}
+.sns-icon li{
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}

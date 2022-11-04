@@ -1,0 +1,640 @@
+/* style은 500~750까지로 제작, 반응형스타일은 750~1024 / 1024~1250 / 1250~ 3가지제작 */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -1px;
+    /* 100,300,400,500,700 */
+    /* color: #1c1c1c; */
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.content-wrap{
+    width: 410px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* 시작 */
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/반응형메인배경.png);
+    /* 메인사진으로 변경해도 괜찮을듯 채도낮춰서! */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+.head-wrap{
+    width:410px;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: lightblue; */
+}
+.head{
+    width: 100%;
+    height: 100px;
+    /* background-color: lightcyan; */
+    padding: 21.775px 0px 21.775px 0px;
+}
+.logo{
+    width: 45px;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.head nav{
+    float: right;
+    line-height: 56px;
+}
+.head nav ul li{
+    float: left;
+    margin-right: 22px;
+    font-weight: 500;
+}
+.head nav ul li a{
+    font-size: 16px;
+    color: white;
+}
+.head nav ul li:last-child{
+    margin-right: 0px;
+}
+.head-wrap p{
+    width: 324px;
+    margin-top: 200px;
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+.bold-point{
+    font-weight: 500;
+    /* color: #ffbf00;; */
+}
+/* 섹션1 브랜드소개*/
+.section1{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #BEB392;
+}
+/* .content-wrap{
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+} */
+.brand{
+    font-size: 54px;
+    color: white;
+    margin-bottom: 15px;
+    padding-top: 130px;
+    font-weight: 500;
+}
+.text-1{
+    width: 380px;
+    font-size: 18px;
+    color: white;
+    line-height: 32px;
+    font-weight: 100;
+}
+.line{
+    width: 600px;
+    height: 250px;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url(../images/반응형브랜드소개_라인.png);
+}
+.more{
+    margin-left: 270px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.more a{
+    color: white;
+}
+.more:hover a{
+    color: #F1EBDB;
+}
+/* .position-box{
+    width: 100%;
+    position: relative;
+    height: 700px;
+} */
+.brand-story{
+    width: 410px;
+    height: 310px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.brand-story img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 섹션2 사업분야 */
+.section2{
+    background-image: url(../images/벽돌텍스처.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 200vh; */
+    /* background-color: lightcyan; */
+}
+.section2 h2{
+    text-align: center;
+    line-height: 40px;
+}
+.small{
+    font-size: 18px;
+}
+.title{
+    font-size: 46px;
+    color: white;
+    margin-bottom: 50px;
+    color: #1c1c1c;
+    padding-top: 100px;
+}
+.brands-list ul{
+    padding-bottom: 50px;
+    /* float: left; */
+}
+.brands-list ul li{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+.brands-list ul li img{
+    width: 100%;
+}
+.img-circle1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #76706F;
+    margin-top: 50px;
+}
+.h-circle1{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #76706fa1;
+    color: white;
+    transition:opacity 0.5s;
+}
+.img-circle1:hover .h-circle1{
+    opacity: 1;
+}
+.h-circle1::after{
+    position: absolute;
+    left: 110px;
+    top: 135px;
+    content: "Go To See ▶";
+
+}
+.bodyF-logo{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bodyF-logo img{
+    width: 100%;
+    height: 100%;
+}
+.img-circle2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #87A087;
+}
+.h-circle2{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #87a087a1;
+    color: white;
+    transition:opacity 0.5s;
+}
+.h-circle2::after{
+    position: absolute;
+    left: 110px;
+    top: 135px;
+    content: "Go To See ▶";
+
+}
+.img-circle2:hover .h-circle2{
+    opacity: 1;
+}
+.W-img{
+    width: 300px;
+}
+.W-imgo img{
+    width: 100%;
+    height: 100%;
+}
+.W-logo{
+    margin:50px
+}
+
+
+.img-circle3{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #565042;
+}
+.h-circle3{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #565042a1;
+    color: white;
+    transition:opacity 0.5s;
+}
+.img-circle3:hover.h-circle{
+    opacity: 1;
+}
+.h-circle3::after{
+    position: absolute;
+    left: 110px;
+    top: 135px;
+    content: "Go To See ▶";
+
+}
+.img-circle3:hover .h-circle3{
+    opacity: 1;
+}
+.la-logo{
+    margin: 50px;
+}
+
+.img-circle4{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #E3C4B8;
+}
+.h-circle4{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #e3c4b8a1;
+    color: white; 
+    transition:opacity 0.5s;
+}
+.img-circle4:hover .h-circle4{
+    opacity: 1;
+}
+.h-circle4::after{
+    position: absolute;
+    left: 110px;
+    top: 135px;
+    content: "Go To See ▶";
+
+}
+.img-circle4:hover.h-circle{
+    opacity: 1;
+}
+.backTo-img{
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.backTo-img img{
+    width: 100%;
+    height: 100%;
+}
+.backTo-logo{
+    margin: 50px;
+    margin-bottom: 70px;
+}
+
+/* 섹션3 슬라이드 */
+.content-wrap3{
+    width: 410px;
+    height: 100%;
+    margin: 0 auto;
+}
+.section3{
+    background-color: #B8B7B9;
+    padding-bottom: 100px;
+}
+.overF{
+    overflow-x: scroll;
+}
+.slide{
+    position: relative;
+    padding-top: 100px;
+    height: 600px;
+}
+.slide ul{
+    width: 1540px;
+    float: left;
+}
+.slide ul li{
+    width: 410px;
+    height: 410px;
+    display: inline-block;
+    margin-right: 100px;
+}
+.slideObj{
+    position: relative;
+    width: 410px;
+    height: 410px;
+}
+.slideObj img{
+    width: 100%;
+    height: 100%;
+}
+.luxury{
+    position: absolute;
+    top: -60px;
+    left: 25px;
+    width: 410px;
+}
+.luxury img{
+    width: 100%;
+    height: 100%;
+}
+.slide-icon{
+    position: relative;
+    width: 410px;
+    height: 100%;
+    margin: 0 auto;
+}
+.rotate{
+    position: absolute;
+    width: 150px;
+    bottom: 100px;
+    left: 70px;
+}
+.rotate img{
+    width: 100%;
+    height: 100%;
+}
+.next{
+    font-size: 16px;
+    position: absolute;
+    bottom: 115px;
+    right: 50px;
+    /* font-size: 16+px; */
+}
+.content3-text{
+    margin: 0 auto;
+    text-align: center;
+}
+.content3-text h2{
+    font-size: 46px;
+    margin-bottom: 15px;
+    margin-top: 100px;
+}
+.content3-text p{
+    line-height: 32px;
+    margin-bottom: 100px;
+}
+
+/* 섹션4 뉴스 */
+.section4{
+    background-color: #F9F6EF;
+    padding-bottom: 100px;
+}
+.section4 h2{
+    font-size: 46px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 90px
+}
+.news li{
+    position: relative;
+    margin-bottom: 50px;
+}
+.news li img{
+    width: 100%;
+    height: 100%;
+}
+.news li:hover .news-text{
+    background-color: #b2aa90;
+    transition: all 0.5s;
+}
+.news li:hover img{
+    opacity: 0.9;
+    transition: all 0.5s;
+}
+.news-text{
+    position: absolute;
+    width: 100%;
+    height: 145px;
+    bottom: 0px;
+    background-color: #b2aa90da;
+    color: white;
+    font-size: 20px;
+}
+.news-text p{
+    line-height: 38px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+/* 섹션5 채용안내 */
+.section5 h2{
+    text-align: center;
+}
+.section5 h3{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.newface-text{
+    width: 415px;
+    margin: 0 auto;
+    line-height: 32px;
+    margin-bottom: 35px;
+}
+.btn-wrap{
+    width: 415px;
+    margin: 0 auto;
+}
+.btn-wrap button{
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+}
+.btn1{
+    background-color: #b2aa90;
+    color: white;
+    border: none;
+    margin-right: 11px;
+}
+.btn1:hover{
+    background-color: #9c9576;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btn2{
+    background-color: white;
+    border: solid 1px #1c1c1c;
+    cursor: pointer;
+}
+.btn2:hover{
+    border: solid 1px #b2aa90;
+    color: #b2aa90;
+    transition: all 0.5s;
+}
+.join-img{
+    width: 500px;
+    /* height: 220px; */
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.join-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 푸터 */
+footer{
+    width: 100%;
+    margin: 0 auto;
+}
+.notice{
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #BEB392;
+    font-size: 14px;
+    color: white;
+}
+.notice ul{
+    width: 410px;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+    font-weight: 500;
+}
+.right{
+    float: right;
+}
+.fnb{
+    width: 100%;
+    border-bottom: solid 1px #BEB392;
+}
+.fnb ul{
+    width: 410px;
+    height: 80px;
+    margin: 0 auto;
+}
+.fnb ul li{
+    float: left;
+    margin-right: 38px;
+    line-height: 24px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.fnb ul li a:hover{
+    color: #BEB392;
+}
+.fnb ul li:nth-child(5){
+    margin-right: 30px;
+}
+.fnb ul li:last-child{
+    margin-right: 0px;
+}
+.fnb ul li a{
+    color: #1c1c1c;
+}
+.f-text-wrap{
+    width: 410px;
+    margin: 0 auto;
+}
+.f-text{
+    width: 100%;
+    margin: 0 auto;
+}
+.f-text ul{
+    width: 500px;
+    margin: 0 auto;
+}
+.f-text ul li{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.number{
+   width: 500px;
+   margin: 0 auto; 
+}
+.red{
+    color: red;
+}
+.gray{
+    color: #888;
+}
+.numbers{
+    width: 410px;
+    height: 190px;
+    margin: 0 auto;
+}
+.numbers ul{
+    width: 410px;
+    /* height: 300px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.numbers li{
+    float: left;
+    margin-right: 109px;
+}
+.numbers li:nth-child(2){
+    margin-right: 0px;
+}
+.numbers li:last-child{
+    margin-right: 0px;
+}
+.copy{
+    text-align: center;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,516 @@
+@media(max-width:350px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        width: 350px;
+        
+    }
+    header .head-wrap{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .h-icon-wrap {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .content1 {
+        width: 100%;
+    }
+    .content1-wrap {
+        width: 100%;
+    }
+    .b-img {
+        width: 190px;
+        height: 190px;
+    }
+    /* 메인메뉴 */
+    .gnb{
+        margin-top: 60px;
+    }
+    .gnb ul {
+        width: 100%;
+    }
+    .gnb ul li {
+        width: 12.5%;
+        font-size: 12px;
+    }
+
+    /* 금융상품 */
+    .content2 {
+        width: 100%;
+    }
+    .bank-list ul {
+        width: 100%;
+    }
+    .bank-list ul li {
+        width: 12.5%;
+    }
+    .bank-list ul li div {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    /* 추천상품 */
+    .content3 {
+        width: 100%;
+        display: flex;
+    }
+    .content3 ul {
+        width: 93%;
+        margin: 0 auto;
+    }
+    .content3 ul li {
+        width: 49%;
+        height: 330px;
+    }
+    .content3 .img1{
+        width: 200px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .content3 .img2{
+        width: 200px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .content3 .img3{
+        width: 140px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .content3 .img4{
+        width: 130px;
+        margin-top: 40px;
+        margin-bottom: 16px;
+    }
+    .content3 ul li h4{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+}
+@media all and (min-width: 750px) {
+
+    .wrap{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .content-wrap{
+        width: 800px;
+        margin: 0 auto;
+    }
+    header .head-wrap{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .h-icon-wrap {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .content1 {
+        width: 100%;
+    }
+    .content1-wrap {
+        width: 700px;
+        margin: 0 auto;
+    }
+    .b-img {
+        width: 190px;
+        height: 190px;
+    }
+
+    /* 메인메뉴 */
+    .gnb{
+        margin-top: 60px;
+    }
+    .gnb ul {
+        width: 100%;
+    }
+    .gnb ul li {
+        width: 12.5%;
+        font-size: 12px;
+    }
+
+    /* 금융상품 */
+    .content2 {
+        width: 100%;
+    }
+    .bank-list ul {
+        width: 100%;
+    }
+    .bank-list ul li {
+        width: 60px;
+        margin-right: 80px;
+    }
+
+    /* 추천상품 */
+    .content3 {
+        width: 100%;
+    }
+    .content3 ul {
+        width: 93%;
+        margin: 0 auto;
+    }
+    .content3 ul li {
+        width: 49%;
+        height: 330px;
+    }
+    .content3 .img1{
+        width: 200px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .content3 .img2{
+        width: 200px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .content3 .img3{
+        width: 140px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .content3 .img4{
+        width: 130px;
+        margin-top: 40px;
+        margin-bottom: 16px;
+    }
+    .content3 ul li h4{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+}
+
+/* 1025 */
+@media all and (min-width:1025px){
+    .content-wrap{
+        width: 1000px;
+    }
+    header .head-wrap{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .h-icon-wrap {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .mini-menu{
+        display: block;
+    }
+    .content1 {
+        width: 100%;
+    }
+    .content1-wrap {
+        width: 1000px;
+    }
+    .b-img {
+        width: 190px;
+        height: 190px;
+    }
+
+    /* 메인메뉴 */
+    .gnb{
+        width: 1000px;
+        margin-top: 60px;
+    }
+    .gnb ul {
+        width: 100%;
+    }
+    .gnb ul li {
+        width: 12.5%;
+        font-size: 12px;
+    }
+
+    .b-text p {
+        font-size: 12px;
+    }
+
+    /* 금융상품 */
+    .content2 {
+        width: 100%;
+    }
+    .content2 h2{
+        margin-left: 0px;
+    }
+    .content2{
+        height: 180px;
+    }
+    .go{
+        margin-right: 0px;
+    }
+    .bank-list{
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .bank-list ul {
+        width: 1000px;
+        margin: 0 auto;
+        float: right;
+    }
+    .bank-list ul li {
+        margin-right: 128px;
+    }
+    .bank-list ul li div {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    
+
+    /* 추천상품 */
+    .content3 {
+        width: 100%;
+    }
+    .content3 h2{
+        width: 1000px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .content3 ul {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .content3 ul li {
+        width: 242.5px;
+        height: 330px;
+    }
+    .content3 ul li:nth-child(2){
+        margin-right: 10px;
+    }
+    .content3 .img1{
+        width: 200px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .content3 .img2{
+        width: 200px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .content3 .img3{
+        width: 140px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .content3 .img4{
+        width: 130px;
+        margin-top: 40px;
+        margin-bottom: 16px;
+    }
+    .content3 ul li h4{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    /* 새소식 공고 */
+    .content4-5-wrap{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .content4{
+        float: left;
+    }
+    .content5{
+        float: right;
+    }
+
+    /* 푸터 */
+    .f-text{
+        width: 1000px;
+        padding-top: 50px;
+        text-align: start;
+    }
+    .f-text ul{
+        padding-top: 0px;
+        height: 35px;
+    }
+    .f-bottom{
+        width: 1000px;
+    }
+    .btn select{
+        width: 300px;
+        height: 50px;
+    }
+    .number{
+        width: 210px;
+    }
+    .number h2{
+        font-size: 26px;
+    }
+    .number span{
+        font-size: 18px;
+    }
+}
+
+/* 1250 */
+@media (min-width:1250px){
+    .content-wrap{
+        width: 1200px;
+    }
+    header .head-wrap{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .h-icon-wrap {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .mini-menu{
+        display: block;
+    }
+    .content1 {
+        width: 100%;
+    }
+    .content1-wrap {
+        width: 1200px;
+    }
+    .b-img {
+        width: 190px;
+        height: 190px;
+    }
+
+    /* 메인메뉴 */
+    .gnb{
+        width: 1200px;
+    }
+    .gnb ul {
+        width: 100%;
+    }
+    .gnb ul li {
+        width: 12.5%;
+        font-size: 12px;
+    }
+
+    /* 금융상품 */
+    .content2 {
+        width: 100%;
+    }
+    .content2-title{
+        width: 1200px;
+    }
+    .content2 h2{
+        margin-left: 0px;
+    }
+    .content2{
+        height: 180px;
+    }
+    .go{
+        margin-right: 0px;
+    }
+    .bank-list{
+        width: 1200px;
+    }
+    .bank-list ul {
+        width: 1200px;
+    }
+    .bank-list ul li {
+        width: 65px;
+        margin-right: 162px;
+    }
+    .bank-list ul li div {
+        width: 65px;
+        height: 65px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .bank-list p {
+        font-size: 16px;
+    }
+
+    /* 추천상품 */
+    .content3 {
+        width: 100%;
+    }
+    .content3 h2{
+        width: 1000px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .content3 ul {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .content3 ul li {
+        width: 242.5px;
+        height: 330px;
+    }
+    .content3 ul li:nth-child(2){
+        margin-right: 10px;
+    }
+    .content3 .img1{
+        width: 200px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .content3 .img2{
+        width: 200px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .content3 .img3{
+        width: 140px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .content3 .img4{
+        width: 130px;
+        margin-top: 40px;
+        margin-bottom: 16px;
+    }
+    .content3 ul li h4{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    /* 새소식 공고 */
+    .content4-5-wrap{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .content4{
+        float: left;
+    }
+    .content5{
+        float: right;
+    }
+
+    /* 푸터 */
+    .f-text{
+        width: 1000px;
+        padding-top: 50px;
+        text-align: start;
+    }
+    .f-text ul{
+        padding-top: 0px;
+        height: 35px;
+    }
+    .f-bottom{
+        width: 1000px;
+    }
+    .btn select{
+        width: 300px;
+        height: 50px;
+    }
+    .number{
+        width: 210px;
+    }
+    .number h2{
+        font-size: 26px;
+    }
+    .number span{
+        font-size: 18px;
+    }
+}

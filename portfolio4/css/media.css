@@ -1,0 +1,140 @@
+@media only screen and (min-width: 750px){
+    .content-wrap{
+        width: 750px;
+    }
+    .slide-wrap{
+        width: 860px;
+    }
+    .slide-wrap-5{
+        width: 460px;
+        margin: 0 auto;
+    }
+    .five-slide{
+        width: 1380px;
+    }
+    .five-slide li{
+        width: 460px;
+    }
+    .five-textbox{
+        width: 460px;
+    }
+    .slide-btn-5 ul{
+        width: 410px;
+        margin: 0 auto;
+    }
+    .six-slide-wrap{
+        width: 750px;
+        margin: 0 auto;
+    }
+    .six-slide{
+        width: 1145px;
+    }
+    .six-slide li{
+        width: 355px;
+    }
+    .section3{
+        height: 900px;
+    }
+    .thir-slide{
+        width: 515px;
+        margin: 0px;
+        float: left;
+    }
+    .thir-slide li{
+        width: 515px;
+    }
+    .thir-slide li:nth-child(2){
+        right: -15px;
+        top: -15px;
+    }
+    .slide-btn-3{
+        margin-right: 0px;
+        margin-top: 280px;
+    }
+    .slide-btn-3 img:last-child{
+        margin-right: 15px;
+    }
+}
+@media only screen and (min-width: 1025px){
+    .content-wrap{
+        width: 1100px;
+    }
+    .section3{
+        height: 600px;
+    }
+    .slide-wrap {
+        width: 1100px;
+    }
+    .slide-btn-2 img {
+        width: 40px;
+        height: 40px;
+        margin-right: 25px;
+    }
+    .clearfix{
+        content: "";
+        clear: none;
+    }
+    .thir-title{
+        float: left;
+    }
+    .thir-slide{
+        float: right;
+        margin-top: 120px;
+    }
+    .slide-btn-3{
+        width: 100%;
+        margin-top: -20px;
+        float: right;
+    }
+    .slide-btn-3 img{
+        float: right;
+    }
+    .slide-btn-6{
+        margin-left: 170px;
+    }
+    .slide-count-6{
+        margin-right: 170px;
+    }
+    .section5{
+        height: 1100px;
+    }
+}
+@media (min-width:1250px){
+    .content-wrap{
+        width: 1200px;
+    }
+    .section2{
+        height: 500px;
+    }
+    .slide-wrap{
+        overflow: auto;
+    }
+    .slide-wrap {
+        width: 100%;
+    }
+    .second-slide {
+        width: 1200px;
+    }
+    .second-slide li {
+        width: 260px;
+    }
+
+
+    .six-slide-wrap {
+        width: 1200px;
+        overflow: auto;
+    }
+    .six-slide {
+        width: 100%;
+    }
+    .slide-btn-6 {
+        margin-left: -5px;
+    }
+    .slide-count-6 {
+        margin-right: 51px;
+    }
+    .slide-btn-6 img{
+        width: 40px;
+        height: 40px;
+    }
+}

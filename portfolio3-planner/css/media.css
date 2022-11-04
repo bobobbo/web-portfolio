@@ -1,0 +1,44 @@
+@media only screen and (min-width: 750px){
+    .concept{
+        margin-bottom: 0px;
+    }
+    .concept li {
+        position: relative;
+        width: 33%;
+        height: 280px;
+    }
+    #uni{
+        margin-top: 30%;
+    }
+    #young{
+        margin-top: 15%;
+    }
+    .typo p{
+        font-size: 66px;
+    }
+
+}
+@media only screen and (min-width: 1025px){
+    .typo p{
+        font-size: 88px;
+    }
+    .respon{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+@media (min-width:1250px){
+    .concept{
+        margin-bottom: 150px;
+    }
+    .typo p{
+        font-size: 102px;
+        text-align: center;
+    }
+    .respon{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}

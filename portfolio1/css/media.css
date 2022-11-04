@@ -1,0 +1,138 @@
+@media only screen and (min-width: 750px){
+    .content-wrap{
+        width: 800px
+    }
+    .sub-title{
+        font-size: 22px;
+    }
+    .title{
+        font-size: 62px;
+    }
+    .sec1-prev-next{
+        transform: translateY(200px); 
+    }
+    .product-list{
+        width: 100%;
+    }
+    .product-list li{
+        float: left;
+        margin-right: 12px;
+    }
+    .content-last-wrap{
+        width: 800px;
+    }
+    .etc li{
+        width: 400px;
+        height: 282px;
+        float: left;
+    }
+    .etc li:nth-child(3) img{
+        height: 283px;
+    }
+    .footer-wrap{
+        width: 800px;
+    }
+    .fnb li{
+        width: 400px;
+        height: 190px;
+        float: left;
+    }
+    .sns-icon li{
+        width: 50px;
+    }
+}
+@media only screen and (min-width: 1025px){
+    .section1{
+        background-image: url(../images/W-main-banner1.png);
+    }
+    .content-wrap{
+        width: 950px;
+    }
+    .product-list {
+        width: 800px;
+    }
+    .sub-title{
+        text-align: start;
+        color: #1c1c1c;
+        padding-top: 230px;
+    }
+    .title{
+        text-align: start;
+        color: #1C1C1C;
+        line-height: 65px;
+    }
+    .down{
+        display: block
+    }
+    .go-buy{
+        display: block;
+        width: 190px;
+        height: 30px;
+        border: solid 1px #1c1c1c;
+        color: #1c1c1c;
+        background: none;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .go-buy:hover{
+        background-color: #f05b27;
+        border: solid 1px #f05b27;
+        color: white;
+        transition: all 0.5s;
+    }
+    .lime{
+        color: #f05b27;
+    }
+    .sec1-prev-next{
+        transform: translateY(140px);
+    }
+}
+@media (min-width:1250px){
+    .content-wrap {
+        width: 1200px;
+    }
+    .clothes-box{
+        float: left;
+    }
+    .clothes-text{
+        float: right;
+        margin-top: 50px;
+    }
+    .m-recom-wrap{
+        width: 900px;
+        margin: 0 auto;
+    }
+    .section2 {
+        padding: 100px 0px;
+    }
+    .buy-btn button{
+        margin-bottom: 0px;
+        margin-top: 90px;
+    }
+    .product-list {
+        width: 100%;
+    }
+    .content-last-wrap {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .etc li {
+        width: 600px;
+        height: 411px;
+    }
+    .etc li:nth-child(3) img {
+        height: 423px;
+    }
+    .footer-wrap {
+        width: 1200px;
+    }
+    .menu{
+        display: none;
+    }
+    .left-menu{
+        display: block;
+    }
+    .right-menu{
+        display: block;
+    }
+}
